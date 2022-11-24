@@ -8,8 +8,6 @@ int main() {
     if (n >= 2) {
         cout << primo << endl;
         cout << secondo << endl;
-        cout << primo << endl;
-        cout << secondo << endl;
 
         for (i = 2; i < n; i++) {
             terzo = primo + secondo;
