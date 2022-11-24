@@ -5,9 +5,9 @@ int main() {
   int n, i, primo = 1, secondo = 1, terzo;
     cin >> n;
 
-    if (n < 2) {
-        cout << "errore";
-    } else {
+    if (n >= 2) {
+        cout << primo << endl;
+        cout << secondo << endl;
         cout << primo << endl;
         cout << secondo << endl;
 
@@ -17,7 +17,10 @@ int main() {
             secondo = terzo;
             cout << terzo << endl;
         }
+    }else {
+        cout << "errore";
     }
+
 }
    return 0;
 }
